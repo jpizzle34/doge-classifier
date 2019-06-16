@@ -1,0 +1,11 @@
+.DS_Store
+.project
+*.pyc
+*_hints.*
+*_solution.*
+check_imagesv1.py
+data_structure.py
+printing_results.py
+timing_code.py
+*.code-workspace
+*.vscode

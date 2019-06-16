@@ -1,0 +1,21 @@
+
+
+*** Results Summary for CNN Model Architecture VGG ***
+            N Images:  40
+        N Dog Images:  30
+    N Not-Dog Images:  10
+
+           pct_match:  87.5
+    pct_correct_dogs: 100.0
+ pct_correct_notdogs: 100.0
+   pct_correct_breed:  93.3
+
+**BINARY CLASSIFICATION: 'Is-a-dog'**
+           PRECISION:   1.0
+              RECALL:   1.0
+
+INCORRECT Dog Breed Assignment:
+Real: beagle                       Classifier: walker hound, walker foxhound
+Real: great pyrenees               Classifier: kuvasz
+
+** Total Elapsed Runtime: 0:00:33.053600
