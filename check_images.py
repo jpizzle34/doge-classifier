@@ -389,7 +389,7 @@ def print_results(results_dic, results_stats, model,
     for key in results_stats:
         if key[0:3] == "pct":
             print("%20s: %5.1f" % (key, results_stats[key]))
-    print("\n**BINARY CLASSIFICATION: 'Dog/Not-a-Dog'**")
+    print("\n**BINARY CLASSIFICATION METRICS: 'Dog/Not-a-Dog'**")
     print("%20s: %5.4f" % ("PRECISION", results_stats['precision']))
     print("%20s: %5.4f" % ("RECALL", results_stats['recall']))
 
